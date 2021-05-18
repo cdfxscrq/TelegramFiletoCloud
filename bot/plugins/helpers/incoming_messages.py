@@ -12,7 +12,7 @@ from bot import (
 )
 from hurry.filesize import size
 from bot.plugins.keybord import server_select
-AUTH_USER.append(429320566)
+AUTH_USER.append(1001079729)
 
 @CloudBot.on_message(filters.video & filters.user(AUTH_USER))
 async def userVideo(client, bot):
